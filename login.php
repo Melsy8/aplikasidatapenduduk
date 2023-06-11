@@ -53,6 +53,14 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        a {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
         
         button:hover {
             background-color: #45a049;
@@ -75,6 +83,7 @@
             </li>
             <li>
                 <button type="submit" name="login" >login</button>
+                <a href="registrasi.php">register</a>
             </li>
         </ul>
     </form>

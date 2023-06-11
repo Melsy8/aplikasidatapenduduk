@@ -12,7 +12,7 @@ if ($regist) {
     ?>
     <script type="text/javascript">
         alert ('Registrasi Berhasil');
-        window.location="registrasi.php"
+        window.location="login.php"
     </script>
     <?php
 } else {
