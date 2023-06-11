@@ -67,15 +67,15 @@
         <ul>
             <li>
                 <label for="username">username</label>
-                <input type="text" name="username" id="username" require>
+                <input type="text" name="username" id="username" required>
             </li>
             <li>
                 <label for="password">password</label>
-                <input type="password" name="password" id="password" require>
+                <input type="password" name="password" id="password" required>
             </li>
             <li>
                 <label for="password2">konfirmasi password</label>
-                <input type="password" name="password2" id="password2" require>
+                <input type="password" name="password2" id="password2" required>
             </li>
             <li>
                 <button type="submit" name="registrasi" >Registrasi</button>
