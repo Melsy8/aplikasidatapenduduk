@@ -31,8 +31,26 @@
             <th>Agama</th>
             <th>Status Perkawinan </th>
         </tr>
-        <tr>
-        </tr>
+        <?php
+
+        include "koneksi.php";
+        $no=1;
+        $ambildata = mysqli_query($conn,"SELECT*FROM warga");
+        while($tampil = mysqli_fetch_array($ambildata)){
+            ?>
+            <tr>
+                <td><?php echo $no ?></td>
+                <td><?php echo $tampil['nama'] ?></td>
+                <td><?php echo $tampil['alamat'] ?></td>
+                <td><?php echo $tampil['kelurahan'] ?></td>
+                <td><?php echo $tampil['agama'] ?></td>
+                <td><?php echo $tampil['status_perkawinan'] ?></td>
+            </tr>
+            <?php
+            $no++;
+        }
+        ?>
+
     </table>
 
     </section>
