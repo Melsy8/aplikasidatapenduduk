@@ -1,3 +1,16 @@
+<?php 
+if (isset($_GET['url'])) {
+  $url=$_GET['url'];
+  switch ($url) {
+    case 'editwarga';
+      include "editwarga.php";
+      break;
+    case 'deletewarga';
+      include "deletewarga.php";
+      break;
+  }
+}else {
+    ?>
 <!DOCTYPE html>
 <html>
 
@@ -68,8 +81,8 @@
                 <td><?php echo $tampil['status_perkawinan'] ?></td>
                 <td><?php echo $tampil['jeniskelamin'] ?></td>
                 <td>
-                    <a href="editwarga.php">edit</a>
-                    <a href="deletewarga.php">delete</a>
+                    <a href="?url=editwarga&id_warga=<?php echo $tampil['id_warga']?>">edit</a>
+                    <a href="?url=deletewarga&id_warga=<?php echo $tampil['id_warga']?>">delete</a>
                 </td>
             </tr>
             <?php
@@ -81,3 +94,5 @@
 </body>
 
 </html>
+<?php
+}?>
