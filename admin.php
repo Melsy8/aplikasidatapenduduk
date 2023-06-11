@@ -33,7 +33,7 @@
 <body>
     <h1>Data Penduduk</h1>
     <a href="logout.php">Logout</a>
-    <a href="tambahpenduduk.php">Tambah Penduduk</a>
+    <a href="tambahwarga.php">Tambah Penduduk</a>
     <table border="1" cellpading="10" cellspacing="0">
         
         <tr>

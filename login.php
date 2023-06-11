@@ -67,11 +67,11 @@
         <ul>
             <li>
                 <label for="username">username</label>
-                <input type="text" name="username" id="username">
+                <input type="text" name="username" id="username" required>
             </li>
             <li>
                 <label for="password">password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </li>
             <li>
                 <button type="submit" name="login" >login</button>
