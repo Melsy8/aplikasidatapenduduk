@@ -28,31 +28,6 @@
       <h3>Data warga</h3>
       <div class="box-form">
         <form action="simpanwarga.php" method="POST">
-        <th>NIK</th>
-        <input type="text" class="form-control" name="nik" required>
-        <th>Nama Warga</th>
-        <input type="text" class="form-control" name="nama" required>
-        <th>Tempat lahir</th>
-        <input type="text" class="form-control" name="tempat_lahir" required>
-        <th>Tanggal lahir</th>
-        <input type="date" class="form-control datepicker" name="tgl_lahir" required>
-        <br><th>Jenis Kelamin</th>
-        <select id="jenis kelamin" class="form-control" required>
-          <option value="">Pilih Jenis Kelamin</option>
-          <option value="laki-laki">Laki-laki</option>
-          <option value="perempuan">Perempuan</option>
-        </select>
-        <th>Alamat</th>
-        <input type="text" class="form-control datepicker" name="tanggal_lahir" required>
-        <th>Kelurahan / Desa</th>
-        <input type="text" class="form-control datepicker" name="tanggal_lahir" required>
-        <th>Agama</th>
-        <input type="text" class="form-control datepicker" name="tanggal_lahir" required>
-        <th>Status Perkawinan</th>
-        <input type="text" class="form-control datepicker" name="tanggal_lahir" required>
-        <button type="submit" class="btn btn-primary btn-lg">
-          <i class="save"></i> Simpan
-        </button>
           <th>NIK</th>
           <input type="text" class="form-control" name="nik" required>
           <th>Nama Warga</th>
@@ -61,21 +36,22 @@
           <input type="text" class="form-control" name="tempat_lahir" required>
           <th>Tanggal lahir</th>
           <input type="date" class="form-control datepicker" name="tgl_lahir" required>
-          <br><th>Jenis Kelamin</th>
-          <select id="jeniskelamin" name="jeniskelamin" class="form-control" required>
+          <br><th>Jenis Kelamin</th> 
+          <select id="jenis kelamin" class="form-control" name="jeniskelamin" required>
             <option value="">Pilih Jenis Kelamin</option>
             <option value="laki-laki">Laki-laki</option>
             <option value="perempuan">Perempuan</option>
           </select>
           <th>Alamat</th>
           <input type="text" class="form-control datepicker" name="alamat" required>
-          <th>Kelurahan / Desa</th>
+          <th>Kelurahan</th>
           <input type="text" class="form-control datepicker" name="kelurahan" required>
           <th>Agama</th>
           <input type="text" class="form-control datepicker" name="agama" required>
           <th>Status Perkawinan</th>
           <input type="text" class="form-control datepicker" name="status_perkawinan" required>
-          <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
+          <button type="submit" class="btn btn-primary btn-lg">Simpan
+          </button>
         </form>
       </div>
     </div>
