@@ -27,7 +27,7 @@
     <div class="container">
       <h3>Data warga</h3>
       <div class="box-form">
-        <form action="simpanwarga.php" method="POST"></form>
+        <form action="simpanwarga.php" method="POST">
         <th>NIK</th>
         <input type="text" class="form-control" name="nik" required>
         <th>Nama Warga</th>
@@ -36,7 +36,7 @@
         <input type="text" class="form-control" name="tempat_lahir" required>
         <th>Tanggal lahir</th>
         <input type="date" class="form-control datepicker" name="tgl_lahir" required>
-        <th>Jenis Kelamin</th>
+        <br><th>Jenis Kelamin</th>
         <select id="jenis kelamin" class="form-control" required>
           <option value="">Pilih Jenis Kelamin</option>
           <option value="laki-laki">Laki-laki</option>
